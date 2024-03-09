@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ultimate QA Suite" verbose="2" parallel="none" thread-count="1">
+    <test name="Ultimate QA Tests">
+        <classes>
+            <class name="com.ultimate.qa.api.runner.ApiTestRunner"/>
+        </classes>
+    </test>
+</suite>
